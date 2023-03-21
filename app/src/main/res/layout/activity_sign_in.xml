@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignIn">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/correo_electronico"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/blue_first"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:hint="Example@gmail.com"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/contrasena"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/blue_first"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/contrasenaEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:hint="Secure Password"
+        android:inputType="textPassword" />
+
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:text="@string/login" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/sinCuenta"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:textColor="@color/blue_second" />
+
+    <TextView
+        android:id="@+id/registrateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:text="@string/registrate"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/blue_first" />
+
+
+</LinearLayout>

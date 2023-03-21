@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ViajesEnGrupo</string>
+
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="sinCuenta">¿Todavía no tienes una cuenta?</string>
+    <string name="conCuenta">¿Ya tienes una cuenta?</string>
+    <string name="registrate">Registrate</string>
+    <string name="confirmPass">Confirmar contraseña</string>
+
+    <string name="createA">Crea una cuenta nueva</string>
+    <string name="createB">¡Y empieza tu aventura!</string>
+
+    <string name="next">Siguiente</string>
+    <string name="selectDates">Selecciona fechas</string>
+
+
+</resources>
