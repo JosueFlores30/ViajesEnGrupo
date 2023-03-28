@@ -3,19 +3,22 @@ package mx.edu.potros.viajesengrupo
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
+
+
 import android.widget.LinearLayout
 
-class MainActivity : AppCompatActivity() {
+class Splash : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_splash)
 
-
-
-        val mainLayout = findViewById<LinearLayout>(R.id.main_layout)
-        mainLayout.setOnClickListener {
-            val intent = Intent(this, SignIn::class.java)
+        Handler().postDelayed({
+            val intent = Intent(this@Splash, IniciarSesion::class.java)
             startActivity(intent)
-        }
+            finish()
+        }, 1500)
     }
 }
+
+

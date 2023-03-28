@@ -8,10 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="blue_first">#141CFF</color>
-    <color name="blue_second">#3E45FF</color>
-    <color name="blue_text">#000b6e</color>
-
-
+    <color name="azul_fuerte">#001FFF</color>
+    <color name="azul_marino">#001189</color>
+    <color name="azul_blanco">#F5F6FF</color>
 
 </resources>

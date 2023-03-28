@@ -14,6 +14,47 @@
 
     <string name="next">Siguiente</string>
     <string name="selectDates">Selecciona fechas</string>
+    <string name="selectLocation">Selecciona ubicación</string>
+
+    <string name="todolist">To-do list</string>
+
+    <string name="inbox">Inbox</string>
+    <string name="enviar_mensaje">Enviar mensaje</string>
+
+    <string name="nombre_usuario">Nombre de usuario :D</string>
+    <string name="Mensaje_usuario">Mensaje del usuario :D</string>
+
+    <string name="to_do_list_ej">Agregar amigos</string>
+    <string name="write_to_add">Escribe para añadir algo</string>
+
+    <string name="agrega_amigos">Agrega amigos</string>
+    <string name="amigos_texto">Envía solicitud a quien quieras a traves del código amigo</string>
+    <string name="tu_codigo">Tú código</string>
+    <string name="codigo">UIX-234-98</string>
+
+    <string name="texto_agregar_amigos">¡Con amigos todo es mejor!</string>
+    <string name="texto2_agregar_amigos">Envía el siguiente código</string>
+    <string name="envia_codigo">TT-896-234</string>
+
+    <string name="nombre_notificaciones">Guadalajara</string>
+    <string name="text_notificaciones">Juan marcó una actividad realizada en el To-do list de Guadalajara</string>
+
+    <string name="planea_aventuras">Planea tus aventuras</string>
+    <string name="mis_viajes">Mis viajes</string>
+    <string name="guadalajara_jalisco">Guadalajara, Jalisco</string>
+    <string name="monterrey_nuevo_leon">Monterrey, Nuevo León</string>
+    <string name="fechas">Fechas</string>
+    <string name="rango_fecha1">Del 11 a 15 de junio.</string>
+    <string name="rango_fecha2">Del 20 a 25 de marzo.</string>
+    <string name="rango_fecha3">Del 11 a 14 de febrero.</string>
+    <string name="friends">Amigos</string>
+
+    <string name="username">¡Hola, Username!</string>
+    <string name="obregon">Cd. Obregón, Son.</string>
+    <string name="nueva_aventura">¿Listo para una nueva aventura?</string>
+
+    <string name="tu_viaje">Tu viaje</string>
+
 
 
 </resources>
