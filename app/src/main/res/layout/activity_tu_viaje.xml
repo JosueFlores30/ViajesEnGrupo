@@ -40,6 +40,7 @@
             />
 
         <TextView
+            android:id="@+id/tu_viaje_todolist_tv"
             android:layout_width="211dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"

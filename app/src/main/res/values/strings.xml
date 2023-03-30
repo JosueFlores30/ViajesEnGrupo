@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ViajesEnGrupo</string>
+    <string name="app_name">SquadTrek</string>
 
     <string name="correo_electronico">Correo electrónico</string>
     <string name="contrasena">Contraseña</string>
@@ -60,6 +60,11 @@
     <string name="eventos">Eventos</string>
     <string name="d1">Día 1 </string>
     <string name="d2">Día 2 </string>
+
+    <string name="siguiente_boton">Siguiente</string>
+    <string name="titulo_eventos">Eventos</string>
+    <string name="titulo_sel_ubicacion">Selecciona ubicación</string>
+    <string name="titulo_sel_fechas">Selecciona fechas</string>
 
 
 </resources>

@@ -19,7 +19,7 @@
                 android:layout_height="15dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="20dp"
-                android:src="@drawable/ic_location" />
+                android:src="@drawable/ic_location_2" />
 
             <TextView
                 android:id="@+id/mis_viajes_lugar_tv"

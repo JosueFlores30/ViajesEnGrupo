@@ -12,7 +12,7 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Chat"
             android:exported="false" />
         <activity
             android:name=".Amigo"
@@ -51,19 +51,34 @@
             android:name=".ToDoList"
             android:exported="false" />
         <activity
-            android:name=".UserActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SelectDates"
-            android:exported="false" />
-        <activity
-            android:name=".SelectLocation"
-            android:exported="false" />
-        <activity
             android:name=".Registrate"
             android:exported="false" />
         <activity
             android:name=".IniciarSesion"
+            android:exported="false" />
+        <activity
+            android:name=".EventoView"
+            android:exported="false" />
+        <activity
+            android:name=".Eventos"
+            android:exported="false" />
+        <activity
+            android:name=".SeleccionarFecha"
+            android:exported="false" />
+        <activity
+            android:name=".UbicacionItem"
+            android:exported="false" />
+        <activity
+            android:name=".SeleccionarUbicacion"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarEvento"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilAmigo"
+            android:exported="false" />
+        <activity
+            android:name=".Perfil"
             android:exported="false" />
         <activity
             android:name=".Splash"

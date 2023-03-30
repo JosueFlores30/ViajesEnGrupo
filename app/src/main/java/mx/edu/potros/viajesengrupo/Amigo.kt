@@ -1,15 +1,14 @@
 package mx.edu.potros.viajesengrupo
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.BaseAdapter
-import android.widget.ImageView
-import android.widget.ListView
-import android.widget.TextView
+import android.widget.*
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class Amigo : AppCompatActivity() {
 
@@ -26,13 +25,63 @@ class Amigo : AppCompatActivity() {
         var adaptador : AdaptadorAmigos = AdaptadorAmigos(this, amigos)
         listview.adapter = adaptador
 
+
+        // Empieza :D
+        val btnNavAdd = findViewById<ImageButton>(R.id.btnNavAdd)
+        btnNavAdd.setOnClickListener {
+            val intent = Intent(this, SeleccionarUbicacion::class.java)
+            startActivity(intent)
+        }
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_navigation_view)
+        bottomNavigationView.setOnNavigationItemSelectedListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.btnViajes -> {
+                    val intent = Intent(this, MisViajes::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.btnHome -> {
+                    val intent = Intent(this, Home::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.btnUser -> {
+                    val intent = Intent(this, Perfil::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.btnAmigos -> {
+                    val intent = Intent(this, Amigo::class.java)
+                    startActivity(intent)
+                    true
+                }
+                else -> false
+            }
+        }
+        val btnMessages = findViewById<ImageView>(R.id.btnMessages)
+        val btnNotifications = findViewById<ImageView>(R.id.btnNotifications)
+        btnMessages.setOnClickListener {
+            val intent = Intent(this, Inbox::class.java)
+            startActivity(intent)
+        }
+        btnNotifications.setOnClickListener {
+            val intent = Intent(this, Notificaciones::class.java)
+            startActivity(intent)
+        }
+        // termina :D
+
+
+
+
     }
 
     fun agregarAmigos(){
-        amigos.add(Amigos(R.drawable.round_circle,"Daniel",""))
-        amigos.add(Amigos(R.drawable.round_circle,"Miguel",""))
-        amigos.add(Amigos(R.drawable.round_circle,"Josue",""))
-        amigos.add(Amigos(R.drawable.round_circle,"Andrea",""))
+        amigos.add(Amigos(R.drawable.round_circle,"Eva Aldrete",""))
+        amigos.add(Amigos(R.drawable.round_circle,"Fátima Macias",""))
+        amigos.add(Amigos(R.drawable.round_circle,"Alejandro Valencia",""))
+        amigos.add(Amigos(R.drawable.round_circle,"Isaac Perez",""))
+        amigos.add(Amigos(R.drawable.round_circle,"Jesús Lares",""))
+        amigos.add(Amigos(R.drawable.round_circle,"Miguel Sanez",""))
     }
 
     private class AdaptadorAmigos: BaseAdapter {

@@ -3,15 +3,24 @@ package mx.edu.potros.viajesengrupo
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.ImageButton
-import android.widget.ImageView
+import android.view.View
+import android.widget.*
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class AgregarAmigoViaje : AppCompatActivity() {
+class AgregarEvento : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_agregar_amigo_viaje)
+        setContentView(R.layout.activity_agregar_evento)
+
+
+
+        val btnSelectAmigo = findViewById<Button>(R.id.btnSelectAmigo)
+        btnSelectAmigo.setOnClickListener {
+            val intent = Intent(this, SeleccionAmigos::class.java)
+            startActivity(intent)
+        }
+
+
 
 
         // Empieza :D
@@ -57,12 +66,6 @@ class AgregarAmigoViaje : AppCompatActivity() {
             startActivity(intent)
         }
         // termina :D
-
-        val btnSiguiente = findViewById<Button>(R.id.btnNext)
-        btnSiguiente.setOnClickListener {
-            val intent = Intent(this, TuViaje::class.java)
-            startActivity(intent)
-        }
 
 
     }

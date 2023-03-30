@@ -56,7 +56,7 @@
             android:textSize="@dimen/title_size" />
 
         <Button
-            android:id="@+id/loginButton"
+            android:id="@+id/btnNext"
             android:layout_width="175dp"
             android:layout_height="40dp"
             android:layout_gravity="center"

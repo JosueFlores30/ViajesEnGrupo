@@ -41,7 +41,7 @@
                 android:layout_height="15dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="17dp"
-                android:src="@drawable/ic_location" />
+                android:src="@drawable/ic_location_2" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -124,7 +124,7 @@
                             android:layout_height="15dp"
                             android:layout_gravity="center"
                             android:layout_marginLeft="20dp"
-                            android:src="@drawable/ic_location" />
+                            android:src="@drawable/ic_location_2" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -138,6 +138,7 @@
                     </LinearLayout>
 
                     <ImageView
+                        android:id="@+id/guadalajara_home_img_iv"
                         android:layout_width="370dp"
                         android:layout_height="170dp"
                         android:scaleType="fitXY"
@@ -222,7 +223,7 @@
                             android:layout_height="15dp"
                             android:layout_gravity="center"
                             android:layout_marginLeft="20dp"
-                            android:src="@drawable/ic_location" />
+                            android:src="@drawable/ic_location_2" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -236,6 +237,7 @@
                     </LinearLayout>
 
                     <ImageView
+                        android:id="@+id/monterrey_home_img_iv"
                         android:layout_width="370dp"
                         android:layout_height="170dp"
                         android:scaleType="fitXY"
