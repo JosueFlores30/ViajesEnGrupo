@@ -24,9 +24,9 @@
             android:id="@+id/to_do_list_tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/to_do_list_ej"
+            android:text="Crear eventos de los días de viaje"
             android:textColor="@color/azul_marino"
-            android:layout_marginRight="55dp"
+            android:layout_marginRight="160dp"
             android:textSize="@dimen/body_text"
             android:fontFamily="@font/montserrat_regular"
             />

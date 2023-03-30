@@ -31,10 +31,10 @@ class Inbox : AppCompatActivity() {
     }
 
     fun agregarInbox(){
-        inbox.add(Amigos(R.drawable.round_circle, "Daniel","Texto de ejemplo :D"))
-        inbox.add(Amigos(R.drawable.round_circle, "Miguel","Texto de ejemplo :D"))
-        inbox.add(Amigos(R.drawable.round_circle, "Josue","Texto de ejemplo :D"))
-        inbox.add(Amigos(R.drawable.round_circle, "Andrea","Texto de ejemplo :D"))
+        inbox.add(Amigos(R.drawable.round_circle, "Fátima Macias","Ya encontré un restaurante para ir el..."))
+        inbox.add(Amigos(R.drawable.round_circle, "Isaac Perez","Si, ya agregué un evento nuevo en el..."))
+        inbox.add(Amigos(R.drawable.round_circle, "Jesús Lares","Todaví no encuentro un buen lugar :("))
+        inbox.add(Amigos(R.drawable.round_circle, "Miguel Sanez","Cuídado en la carretera, va a llover"))
     }
 
     private class AdaptadorInbox: BaseAdapter {

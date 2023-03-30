@@ -43,6 +43,9 @@
     <string name="mis_viajes">Mis viajes</string>
     <string name="guadalajara_jalisco">Guadalajara, Jalisco</string>
     <string name="monterrey_nuevo_leon">Monterrey, Nuevo León</string>
+    <string name="cd_mexico">Cd. México, México</string>
+
+
     <string name="fechas">Fechas</string>
     <string name="rango_fecha1">Del 11 a 15 de junio.</string>
     <string name="rango_fecha2">Del 20 a 25 de marzo.</string>
@@ -53,8 +56,10 @@
     <string name="obregon">Cd. Obregón, Son.</string>
     <string name="nueva_aventura">¿Listo para una nueva aventura?</string>
 
-    <string name="tu_viaje">Tu viaje</string>
-
+    <string name="tu_viaje">Mi viaje</string>
+    <string name="eventos">Eventos</string>
+    <string name="d1">Día 1 </string>
+    <string name="d2">Día 2 </string>
 
 
 </resources>

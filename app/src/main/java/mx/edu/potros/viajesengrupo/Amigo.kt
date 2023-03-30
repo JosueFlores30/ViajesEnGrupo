@@ -11,34 +11,28 @@ import android.widget.ImageView
 import android.widget.ListView
 import android.widget.TextView
 
-class SeleccionAmigos : AppCompatActivity() {
+class Amigo : AppCompatActivity() {
 
-    var selecAmigos: ArrayList<Amigos> = ArrayList<Amigos>()
+    var amigos: ArrayList<Amigos> = ArrayList<Amigos>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_seleccion_amigos)
+        setContentView(R.layout.activity_amigo)
 
 
         agregarAmigos()
 
-
-        var listview: ListView = findViewById(R.id.select_amigos_lv)
-
-        var  adaptador: AdaptadorAmigos = AdaptadorAmigos(this,selecAmigos)
-
-        listview.adapter=adaptador
+        var listview: ListView = findViewById(R.id.amigos_lv) as ListView
+        var adaptador : AdaptadorAmigos = AdaptadorAmigos(this, amigos)
+        listview.adapter = adaptador
 
     }
 
     fun agregarAmigos(){
-        selecAmigos.add(Amigos(R.drawable.round_circle,"Eva Aldrete",""))
-        selecAmigos.add(Amigos(R.drawable.round_circle,"Fátima Macias",""))
-        selecAmigos.add(Amigos(R.drawable.round_circle,"Alejandro Valencia",""))
-        selecAmigos.add(Amigos(R.drawable.round_circle,"Isaac Perez",""))
-        selecAmigos.add(Amigos(R.drawable.round_circle,"Jesús Lares",""))
-        selecAmigos.add(Amigos(R.drawable.round_circle,"Miguel Sanez",""))
-
+        amigos.add(Amigos(R.drawable.round_circle,"Daniel",""))
+        amigos.add(Amigos(R.drawable.round_circle,"Miguel",""))
+        amigos.add(Amigos(R.drawable.round_circle,"Josue",""))
+        amigos.add(Amigos(R.drawable.round_circle,"Andrea",""))
     }
 
     private class AdaptadorAmigos: BaseAdapter {
@@ -67,16 +61,18 @@ class SeleccionAmigos : AppCompatActivity() {
             var inflador= LayoutInflater.from(contexto)
             var vista=inflador.inflate(R.layout.seleccion_amigos_view, null)
 
-            var imagen=vista.findViewById(R.id.select_amigos_img) as ImageView
             var nombre=vista.findViewById(R.id.select_amigos_nombre_tv) as TextView
+            var imagen=vista.findViewById(R.id.select_amigos_img) as ImageView
 
-            imagen.setImageResource(amig.imagen)
+
             nombre.setText(amig.nombre)
+            imagen.setImageResource(amig.imagen)
 
             return vista
 
         }
     }
+
 
 
 }

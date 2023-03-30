@@ -2,11 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="7dp"
         android:layout_width="match_parent">
 
         <ImageView
@@ -19,6 +22,7 @@
         <LinearLayout
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:layout_marginLeft="15dp"
             android:layout_width="match_parent">
 
             <TextView
@@ -40,8 +44,8 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="5dp"
                 android:textColor="@color/azul_marino"
-                android:layout_marginRight="85dp"
-                android:text="@string/text_notificaciones"
+                android:layout_marginRight="90dp"
+                android:text="Isaac Perez marcó una actividad realizada en el To-do list de Guadalajara"
                 android:fontFamily="@font/montserrat_regular"
                 android:textSize="@dimen/body_text"
                 />

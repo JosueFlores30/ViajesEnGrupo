@@ -24,6 +24,7 @@
         android:id="@+id/select_amigos_lv"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:scrollbars="none"
         android:divider="@null">
 
     </ListView>

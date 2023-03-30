@@ -15,7 +15,7 @@ class IniciarSesion : AppCompatActivity() {
         val btnLogin = findViewById<Button>(R.id.loginButton)
 
         btnLogin.setOnClickListener {
-            val intent = Intent(this, Notificaciones::class.java)
+            val intent = Intent(this, TuViaje::class.java)
             startActivity(intent)
         }
 

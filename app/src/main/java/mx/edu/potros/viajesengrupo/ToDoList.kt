@@ -29,9 +29,10 @@ class ToDoList : AppCompatActivity() {
 
     fun agregarLista(){
         lista.add(Listtodo("Agregar amigos"))
-        lista.add(Listtodo("Buscar hotel"))
-        lista.add(Listtodo("Revisar inbox"))
+        lista.add(Listtodo("Crear eventos de los días de viaje"))
         lista.add(Listtodo("Asignar eventos"))
+        lista.add(Listtodo("Revisar inbox"))
+        lista.add(Listtodo("Buscar hotel"))
     }
 
     private class AdaptadorLista: BaseAdapter {
